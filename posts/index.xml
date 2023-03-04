@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Armoghan</title>
+    <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/</link>
+    <description>Recent content in Posts on Armoghan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2023 09:00:00 +0100</lastBuildDate><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started in IT</title>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it-a-beginners-guide/</link>
+      <pubDate>Thu, 02 Mar 2023 09:00:00 +0100</pubDate>
+      
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it-a-beginners-guide/</guid>
+      <description>Are you interested in pursuing a career in IT? With the increasing reliance on technology in almost every aspect of our lives, there has never been a better time to get started in this field. In this guide, we will cover the basics of what IT is, the different career paths available, and how to get started on your journey.
+What is IT? Information Technology (IT) is the use of computers, software, and networks to process, store, and distribute information.</description>
+    </item>
+    
+  </channel>
+</rss>
