@@ -3,8 +3,8 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
@@ -14,8 +14,8 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/beginners-guide/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/tags/aws/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
@@ -25,8 +25,8 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it-a-beginners-guide/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/tags/azure/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
@@ -36,8 +36,8 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/it/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/tags/beginners-guide/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
@@ -47,8 +47,8 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/tags/cloud-computing/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
@@ -58,8 +58,217 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/</loc>
-	    <lastmod>2023-03-02</lastmod>
+	    <loc>http://localhost:1313/Blogs/posts/cloudcomputing/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/coding/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/cybersecurity/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/cybersecurity/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/data-science/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/datascience/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/getting-started-in-it-a-beginners-guide/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/google-cloud/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/information-security/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/it/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/machine-learning/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/network-administration/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/network-administration/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/networking/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/programming/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/software-development/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/posts/software-development/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/statistics/</loc>
+	    <lastmod>0001-01-01</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>http://localhost:1313/Blogs/tags/</loc>
+	    <lastmod>0001-01-01</lastmod>
         
 
         
