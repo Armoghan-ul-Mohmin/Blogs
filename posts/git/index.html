@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    Git | 
+    
+    Armoghan</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Introduction to Git
+    ">
+
+
+<meta property="og:title" content="Git" />
+<meta property="og:description" content="Introduction to Git" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://armoghan-ul-mohmin.github.io/Blogs/posts/git/" /><meta property="article:section" content="posts" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git"/>
+<meta name="twitter:description" content="Introduction to Git"/>
+
+<meta itemprop="name" content="Git">
+<meta itemprop="description" content="Introduction to Git">
+
+<meta itemprop="wordCount" content="1786">
+<meta itemprop="keywords" content="Git,IT,Beginner&#39;s Guide," />
+<link rel="canonical" href="https://armoghan-ul-mohmin.github.io/Blogs/posts/git/" />
+
+<link rel="icon" type="image/png" href="https://armoghan-ul-mohmin.github.io/Blogs/image/favicon.ico">
+
+<link rel="stylesheet" href="https://armoghan-ul-mohmin.github.io/Blogs/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://armoghan-ul-mohmin.github.io/Blogs/css/bulma.min.css">
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'analytics-code', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<script src=https://armoghan-ul-mohmin.github.io/Blogs/js/ramium.js></script>
+<link rel="stylesheet" href=https://armoghan-ul-mohmin.github.io/Blogs/css/ramium.css>
+
+
+<link rel="stylesheet" href=https://armoghan-ul-mohmin.github.io/Blogs/css/chordsheet.css>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+    integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+    integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+    crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+    integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Source Themes Academic ">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2047325115998150"
+     crossorigin="anonymous"></script>
+
+</head>
+
+<body><nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href=https://armoghan-ul-mohmin.github.io/Blogs/>
+      
+      <strong>Armoghan </strong>
+      
+    </a>
+
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+      data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      
+      
+      <a class="navbar-item" href="https://armoghan-ul-mohmin.github.io/Blogs/">Home</a>
+      
+      
+      
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">This Blog</a>
+        <div class="navbar-dropdown">
+          
+          <a class="navbar-item" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/">All Tags</a>
+          
+          <a class="navbar-item" href="https://armoghan-ul-mohmin.github.io/Blogs/posts/">All Posts</a>
+          
+        </div>
+      </div>
+      
+      
+      
+      <a class="navbar-item" href="https://armoghan-ul-mohmin.github.io/Blogs/notes">Notes</a>
+      
+      
+      
+      <a class="navbar-item" href="https://armoghan-ul-mohmin.github.io/Portfolio/">Author</a>
+      
+      
+    </div>
+
+    <div class="navbar-end">
+      
+
+      
+    </div>
+  </div>
+</nav><div class="columns is-centered">
+        <div id="page-body" class="column is-7">
+
+<div class="content blog">
+    <h1>Git</h1>
+
+    <div id="infobar" class="level is-mobile">
+        <div class="level-left">
+            
+            <div class="level-item">
+                <p class="subtitle info date">Jan 1, 0001
+                </p>
+            </div>
+            
+
+            <div class="level-item">
+                <p class="subtitle info">
+                    10 mins read
+                </p>
+            </div>
+        </div>
+        <div class="level-right is-hidden-touch">
+            <div class="tags">
+                
+                <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/git">Git</a>
+                
+                <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/it">IT</a>
+                
+                <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/beginners-guide">Beginner&#39;s Guide</a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="tags is-hidden-desktop">
+        
+        <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/git">Git</a>
+        
+        <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/it">It</a>
+        
+        <a class="tag is-dark is-rounded" href="https://armoghan-ul-mohmin.github.io/Blogs/tags/beginners-guide">Beginner&#39;S guide</a>
+        
+    </div>
+
+    <div class="blog-text">
+        
+        <figure>
+            <img src="https://armoghan-ul-mohmin.github.io/Blogs/images/Git.webp">
+        </figure>
+        
+
+        <p>Git is officially defined as a <em>distributed version control system</em> (VCS).</p>
+<p>In other words, it&rsquo;s a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time.  This system can be used by many people to efficiently work together and <strong>collaborate on team projects</strong>, where each developer can have their own version of the project, distributed on their computer. Later on, these individual versions of the project can be merged and adapted into the main version of the project.</p>
+<p>Basically, it&rsquo;s a massively popular tool for coordinating parallel work and managing projects among individuals and teams. Needless to say, knowing how to use Git is one of the most important skills for any developer nowadays - and it&rsquo;s definitely a great addition to your resume!</p>
+<p>ℹ️ Git official homepage: <a href="https://git-scm.com/">https://git-scm.com/</a></p>
+<h1 id="1-setup-instructions">1. Setup instructions</h1>
+<p>Git is primarily used via the command-line interface, which we can access with our system terminals.</p>
+<p>However, we first need to make sure that we have Git installed on our computers.</p>
+<p>ℹ️ You can download Git here: <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
+<p>Click the download link for your specific operating system and then follow through the installation wizard to get things set up on your computer!</p>
+<p>After installing it, start your terminal and type the following command to verify that Git is ready to be used on your computer:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git --version
+</span></span></code></pre></div><p>If everything went well, it should return the Git version that is installed on your computer.</p>
+<blockquote>
+<p>If you are using a Mac or Linux machine, then you can utilize the default Bash terminal that comes pre-installed on your machine.</p>
+</blockquote>
+<blockquote>
+<p>If you are using Windows, you can use its built-in Powershell terminal, or the Git Bash terminal which is bundled with the Git installation.</p>
+</blockquote>
+<h3 id="configuring-your-name--email">Configuring Your Name &amp; Email</h3>
+<p>In your terminal, run the following commands to identify yourself with Git:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git config --global user.name <span style="color:#e6db74">&#34;Your Name&#34;</span>
+</span></span><span style="display:flex;"><span>git config --global user.email <span style="color:#e6db74">&#34;your@email.com&#34;</span>
+</span></span></code></pre></div><p>Replace the values inside the quotes with your name and email address.</p>
+<h1 id="2-repositories">2. Repositories</h1>
+<p>When working with Git, it&rsquo;s important to be familiar with the term <strong>repository</strong>. A Git repository is a container for a project that is tracked by Git.</p>
+<p>We can single out two major types of Git repositories:</p>
+<ul>
+<li><strong>Local repository</strong> - an isolated repository stored on your own computer, where you can work on the local version of your project.</li>
+<li><strong>Remote repository</strong> - generally stored outside of your isolated local system, usually on a remote server. It&rsquo;s especially useful when working in teams - this is the place where you can share your project code, see other people&rsquo;s code and integrate it into your local version of the project, and also push your changes to the remote repository.</li>
+</ul>
+<p>In this video, we&rsquo;ll only work with local repositories.</p>
+<h1 id="3-initializing-a-repository">3. Initializing a repository</h1>
+<p>To create a new repository and start tracking your project with Git, use your terminal software and navigate to the main folder of your project, then type the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
+</span></span></code></pre></div><p>This command will generate a hidden <strong>.git</strong> directory for your project, where Git stores all internal tracking data for the current repository.</p>
+<h1 id="4-staging-and-committing-code">4. Staging and committing code</h1>
+<p>Committing is the process in which the changes are <em>&lsquo;officially&rsquo;</em> added to the Git repository.</p>
+<p>In Git, we can consider <strong>commits</strong> to be checkpoints, or snapshots of your project at its current state. In other words, we basically save the current version of our code in a commit. We can create as many commits as we need in the commit history, and we can go back and forth between commits to see the different revisions of our project code. That allows us to efficiently manage our progress and track the project as it gets developed.</p>
+<p>Commits are usually created at logical points as we develop our project, usually after adding in specific contents, features or modifications (like new functionalities or bug fixes, for example).</p>
+<p>📌 Before we can commit our code, we need to place it inside the <strong>staging area</strong>.</p>
+<h2 id="41-checking-the-status">4.1. Checking the status</h2>
+<p>While located inside the project folder in our terminal, we can type the following command to check the status of our repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+</span></span></code></pre></div><p>This is a command that is very often used when working with Git.  It shows us which files have been changed, which files are tracked, etc.</p>
+<p>We can add the untracked project files to the <strong>staging area</strong> based on the information from the <code>git status</code> command.</p>
+<p>At a later point, <code>git status</code> will report any modifications that we made to our tracked files before we decide to add them to the staging area again.</p>
+<h2 id="42-staging-files">4.2. Staging files</h2>
+<p>From the project folder, we can use the <strong>git add</strong> command to add our files to the staging area, which allows them to be tracked.</p>
+<p>We can add a specific file to the staging area with the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add file.js
+</span></span></code></pre></div><p>To add multiple files, we can do this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add file.js file2.js file3.js
+</span></span></code></pre></div><p>Instead of having to add the files individually, we can also add all the files inside the project folder to the staging area:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span></code></pre></div><p>By default, this adds <strong>all the files and folders</strong> inside the project folder to the staging area, from where they are ready to be committed and tracked.</p>
+<h2 id="43-making-commits">4.3. Making commits</h2>
+<p>A <strong>commit</strong> is a snapshot of our code at a particular time, which we are saving to the commit history of our repository. After adding all the files that we want to track to the staging area with the <code>**git add</code>** command, we are ready to make a commit.</p>
+<p>To commit the files from the staging area, we use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Commit message&#34;</span>
+</span></span></code></pre></div><p>Inside the quotes, we should write a <strong>commit message</strong> which is used to identify it in the commit history.</p>
+<p>The commit message should be a descriptive summary of the changes that you are committing to the repository.</p>
+<p>After executing that command, you will get the technical details about the commit printed in the terminal. And that&rsquo;s basically it, you have successfully made a commit in your project!</p>
+<p>📌 To create a new commit, you will need to repeat the process of adding files to the staging area and then committing them after. Again, it&rsquo;s very useful to use the <strong>git status</strong> command to see which files were modified, staged, or untracked.</p>
+<h2 id="44-commit-history">4.4. Commit history</h2>
+<p>To see all the commits that were made for our project, you can use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log
+</span></span></code></pre></div><p>The logs will show details for each commit, like the author name, the generated hash for the commit, date and time of the commit, and the commit message that we provided.</p>
+<p>To go back to a previous state of your project code that you committed, you can use the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout &lt;commit-hash&gt;
+</span></span></code></pre></div><p>Replace <code>&lt;commit-hash&gt;</code> with the actual hash for the specific commit that you want to visit, which is listed with the <code>git log</code> command.</p>
+<p>To go back to the latest commit (the newest version of our project code), you can type this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span></code></pre></div><h2 id="45-ignoring-files">4.5. Ignoring files</h2>
+<p>To ignore files that you don&rsquo;t want to be tracked or added to the staging area, you can create a file called <code>.gitignore</code> in your main project folder.</p>
+<p>Inside of that file, you can list all the file and folder names that you definitely do not want to track (each ignored file and folder should go to a new line inside the <strong>.gitignore</strong> file).</p>
+<p>You can read an article about ignoring files <a href="https://help.github.com/en/articles/ignoring-files">on this link</a>.</p>
+<h1 id="5-branches">5. Branches</h1>
+<p>A <strong>branch</strong> could be interpreted as an individual timeline of our project commits.</p>
+<p>With Git, we can create many of these alternative environments (i.e. we can create different <strong>branches</strong>) so other versions of our project code can exist and be tracked in parallel.</p>
+<p>That allows us to add new (experimental, unfinished, and potentially buggy) features in separate branches, without touching the &lsquo;<em>official&rsquo;</em> stable version of our project code (which is usually kept on the <strong>master</strong> branch).</p>
+<p>When we initialize a repository and start making commits, they are saved to the <strong>master</strong> branch by default.</p>
+<h2 id="51-creating-a-new-branch">5.1. Creating a new branch</h2>
+<p>You can create a new branch using the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch &lt;new-branch-name&gt;
+</span></span></code></pre></div><p>The new branch that gets created will be the reference to the current state of your repository.</p>
+<p>📌 It&rsquo;s a good idea to create a <strong>development</strong> branch where you can work on improving your code, adding new experimental features, and similar. After development and testing these new features to make sure they don&rsquo;t have any bugs and that they can be used, you can merge them to the master branch.</p>
+<h2 id="52-changing-branches">5.2. Changing branches</h2>
+<p>To switch to a different branch, you use the <strong>git checkout</strong> command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout &lt;branch-name&gt;
+</span></span></code></pre></div><p>With that, you switch to a different isolated timeline of your project by changing branches.</p>
+<p>📌 For example, you could be working on different features in your code and have a separate branch for each feature. When you switch to a branch, you can commit code changes which only affect that particular branch. Then, you can switch to another branch to work on a different feature, which won&rsquo;t be affected by the changes and commits made from the previous branch.</p>
+<p>To create a new branch and change to it at the same time, you can use the <strong>-b</strong> flag:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout -b &lt;new-branch-name&gt;
+</span></span></code></pre></div><p>ℹ️ To list the branches for your project, use this command: <code>git branch</code></p>
+<p>To go back to the <strong>master</strong> branch, use this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span></code></pre></div><h2 id="53-merging-branches">5.3. Merging branches</h2>
+<p>You can merge branches in situations where you want to implement the code changes that you made in an individual branch to a different branch.</p>
+<p>For example, after you fully implemented and tested a new feature in your code, you would want to merge those changes to the stable branch of your project (which is usually the default <strong>master</strong> branch).</p>
+<p>To merge the changes from a different branch into your current branch, you can use this command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git merge &lt;branch-name&gt;
+</span></span></code></pre></div><p>You would replace <code>&lt;branch-name&gt;</code> with the branch that you want to integrate into your current branch.</p>
+<h2 id="54-deleting-a-branch">5.4. Deleting a branch</h2>
+<p>To delete a branch, you can run the <strong>git branch</strong> command with the <strong>-d</strong> flag:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch -d &lt;branch-name&gt;
+</span></span></code></pre></div><p>ℹ️ Read more about branching and merging <a href="https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging">on this link</a>.</p>
+<h1 id="6-further-learning">6. Further learning</h1>
+<p>To learn more about Git, make sure to check the following resources:</p>
+<ul>
+<li>Git official documentation: <a href="https://git-scm.com/doc">https://git-scm.com/doc</a></li>
+<li>The free <strong>Pro Git</strong> book: <a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a></li>
+<li>Learn about GitHub: <a href="https://guides.github.com/">https://guides.github.com/</a></li>
+</ul>
+<p>ℹ️ GitHub is a website where we can store our repositories online. In other words, GitHub works with Git as a repository hosting service.</p>
+
+    </div>
+</div><div id="social-media-share" class="has-text-centered">
+	<p><i>Sharing is caring!</i></p>
+	<br>
+	
+	<div class="share-buttons">
+	    <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Facebook. Opens in a new window.">
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/facebook.png>
+	    </a>
+
+	    <a  href="https://twitter.com/intent/tweet?text=Git&url=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Twitter. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/twitter.png>
+	    </a>
+
+		<a  href="http://www.reddit.com/submit?url=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Reddit. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/reddit.png>
+	    </a>
+
+	    <a  href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Pinterest. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/pinterest.png>
+	    </a>
+
+	    <a  href="http://www.tumblr.com/share/link?url=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Tumblr. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/tumblr.png>
+	    </a>
+
+		<a  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f
+			&title=Git&summary=Git%20is%20officially%20defined%20as%20a%20distributed%20version%20control%20system%20%28VCS%29.%0aIn%20other%20words%2c%20it%26rsquo%3bs%20a%20system%20that%20tracks%20changes%20to%20our%20project%20files%20over%20time.%20It%20enables%20us%20to%20record%20project%20changes%20and%20go%20back%20to%20a%20specific%20version%20of%20the%20tracked%20files%2c%20at%20any%20given%20point%20in%20time.%20This%20system%20can%20be%20used%20by%20many%20people%20to%20efficiently%20work%20together%20and%20collaborate%20on%20team%20projects%2c%20where%20each%20developer%20can%20have%20their%20own%20version%20of%20the%20project%2c%20distributed%20on%20their%20computer.&source=rafed123.github.io"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on LinkedIn. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/linkedin.png>
+	    </a>
+
+	    <a  href="mailto:?subject=Git&amp;body=Check out this site https%3a%2f%2farmoghan-ul-mohmin.github.io%2fBlogs%2fposts%2fgit%2f"
+	        title="Share via Email. Opens in a new window." >
+	        <img src=https://armoghan-ul-mohmin.github.io/Blogs/img/icons/45px/mail.png>
+	    </a>
+	</div>
+</div>
+
+
+<br>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = 'disqus-code';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        </div>
+    </div>
+
+<footer class="footer has-background-dark">
+    <div class="content has-text-centered has-text-white">
+        
+    </div>
+</footer>
+</body>
+
+</html>

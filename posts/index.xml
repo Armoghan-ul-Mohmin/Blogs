@@ -16,5 +16,27 @@
 What is IT? Information Technology (IT) is the use of computers, software, and networks to process, store, and distribute information.</description>
     </item>
     
+    <item>
+      <title>Git</title>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/git/</guid>
+      <description>Git is officially defined as a distributed version control system (VCS).
+In other words, it&amp;rsquo;s a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time. This system can be used by many people to efficiently work together and collaborate on team projects, where each developer can have their own version of the project, distributed on their computer.</description>
+    </item>
+    
+    <item>
+      <title>Install Git</title>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/installgit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/installgit/</guid>
+      <description>This article will guide you on how to install Git command line tools along with Git Bash, which is a terminal shell which will allow you to use UNIX terminal commands and utilities on your Windows operating system.
+You can find the Windows installer available for download here: https://git-scm.com/downloads
+https://git-scm.com/download/win
+Your download should start automatically, but if it doesn&amp;rsquo;t for some reason, you can follow the If your download hasn&amp;rsquo;t started, click here to download manually.</description>
+    </item>
+    
   </channel>
 </rss>
