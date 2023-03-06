@@ -2,70 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Armoghan</title>
-    <link>http://localhost:1313/Blogs/</link>
+    <link>https://armoghan-ul-mohmin.github.io/Blogs/</link>
     <description>Recent content on Armoghan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/Blogs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CloudComputing</title>
-      <link>http://localhost:1313/Blogs/posts/cloudcomputing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Blogs/posts/cloudcomputing/</guid>
-      <description>Introduction Cloud computing is a model for enabling on-demand access to a shared pool of computing resources over the internet. In this blog post, we will cover the basic concepts of cloud computing and provide an overview of the major cloud providers.
-What is Cloud Computing? Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.</description>
-    </item>
-    
-    <item>
-      <title>Cyber Security</title>
-      <link>http://localhost:1313/Blogs/posts/cybersecurity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Blogs/posts/cybersecurity/</guid>
-      <description>Introduction Cybersecurity is the practice of protecting your digital assets from unauthorized access, theft, or damage. In today&amp;rsquo;s interconnected world, where businesses and individuals rely heavily on technology, cybersecurity is more important than ever before.
-In this post, we&amp;rsquo;ll cover some basic cybersecurity concepts and best practices that can help you protect your digital assets.
-Types of Cybersecurity Threats There are many types of cybersecurity threats, including:
- Malware: malicious software that can infect your computer and steal or destroy data Phishing: fraudulent emails or websites that trick you into providing personal information Social engineering: using psychological manipulation to trick people into giving up sensitive information Password attacks: attempting to guess or crack your passwords to gain access to your accounts Denial-of-service attacks: flooding a website or network with traffic to make it unavailable  Best Practices for Cybersecurity Here are some best practices that can help you protect your digital assets:</description>
-    </item>
-    
-    <item>
-      <title>DataScience</title>
-      <link>http://localhost:1313/Blogs/posts/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Blogs/posts/datascience/</guid>
-      <description>Introduction Data Science is the field of study that uses scientific methods, algorithms, and statistical models to extract insights and knowledge from structured and unstructured data. In this blog post, we will cover the basic concepts of Data Science and provide an overview of the field.
-What is Data Science? Data Science is an interdisciplinary field that uses techniques from statistics, machine learning, and computer science to extract insights and knowledge from data.</description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started in IT</title>
-      <link>http://localhost:1313/Blogs/posts/getting-started-in-it-a-beginners-guide/</link>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Blogs/posts/getting-started-in-it-a-beginners-guide/</guid>
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it/</guid>
       <description>Are you interested in pursuing a career in IT? With the increasing reliance on technology in almost every aspect of our lives, there has never been a better time to get started in this field. In this guide, we will cover the basics of what IT is, the different career paths available, and how to get started on your journey.
 What is IT? Information Technology (IT) is the use of computers, software, and networks to process, store, and distribute information.</description>
-    </item>
-    
-    <item>
-      <title>Network Administration</title>
-      <link>http://localhost:1313/Blogs/posts/network-administration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Blogs/posts/network-administration/</guid>
-      <description>What is Network Administration? Network administration is the process of managing and maintaining computer networks. It involves configuring network devices, monitoring network performance, and troubleshooting network issues. Network administrators play a critical role in ensuring that networks are secure, reliable, and efficient.
-Why is Network Administration Important? Network administration is important because computer networks are an essential part of many businesses and organizations. Networks enable users to share resources, communicate, and collaborate.</description>
-    </item>
-    
-    <item>
-      <title>Software Development</title>
-      <link>http://localhost:1313/Blogs/posts/software-development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/Blogs/posts/software-development/</guid>
-      <description>What is Software Development? Software development is the process of designing, building, testing, and maintaining software applications. It involves writing code, debugging, and ensuring that the software performs as expected. Software development can be done using various programming languages, tools, and frameworks.
-Why is Software Development Important? Software development is important because it enables businesses and individuals to create software applications that solve real-world problems. Software development can help automate manual tasks, improve efficiency, and create new revenue streams.</description>
     </item>
     
   </channel>
