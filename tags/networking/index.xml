@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>networking on Armoghan</title>
-    <link>http://localhost:1313/Blogs/tags/networking/</link>
+    <link>https://armoghan-ul-mohmin.github.io/Blogs/tags/networking/</link>
     <description>Recent content in networking on Armoghan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/Blogs/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Network Administration</title>
-      <link>http://localhost:1313/Blogs/posts/network-administration/</link>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/network-administration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Blogs/posts/network-administration/</guid>
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/network-administration/</guid>
       <description>What is Network Administration? Network administration is the process of managing and maintaining computer networks. It involves configuring network devices, monitoring network performance, and troubleshooting network issues. Network administrators play a critical role in ensuring that networks are secure, reliable, and efficient.
 Why is Network Administration Important? Network administration is important because computer networks are an essential part of many businesses and organizations. Networks enable users to share resources, communicate, and collaborate.</description>
     </item>

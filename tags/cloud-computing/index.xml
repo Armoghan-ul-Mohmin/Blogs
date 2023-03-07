@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cloud computing on Armoghan</title>
-    <link>http://localhost:1313/Blogs/tags/cloud-computing/</link>
+    <link>https://armoghan-ul-mohmin.github.io/Blogs/tags/cloud-computing/</link>
     <description>Recent content in cloud computing on Armoghan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/Blogs/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/tags/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CloudComputing</title>
-      <link>http://localhost:1313/Blogs/posts/cloudcomputing/</link>
+      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/cloudcomputing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/Blogs/posts/cloudcomputing/</guid>
+      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/cloudcomputing/</guid>
       <description>Introduction Cloud computing is a model for enabling on-demand access to a shared pool of computing resources over the internet. In this blog post, we will cover the basic concepts of cloud computing and provide an overview of the major cloud providers.
 What is Cloud Computing? Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.</description>
     </item>
