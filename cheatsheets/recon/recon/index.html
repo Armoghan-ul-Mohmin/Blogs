@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    
+    
+    Armoghan
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://example.com/cheatsheets/recon/recon/" />
+<link rel="icon" type="image/png" href="https://example.com/image/favicon.ico">
+
+
+<meta name="description" content="
+    Certspotter curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq | dig &#43;short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG - Sublist3r One-liner This runs Sublist3r on a list of domains and outputs the results in separate files.
+    "
+/>
+<meta property="og:description" content="
+    Certspotter curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq | dig &#43;short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG - Sublist3r One-liner This runs Sublist3r on a list of domains and outputs the results in separate files.
+    " 
+/>
+
+
+
+
+
+
+<meta property="og:title" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/cheatsheets/recon/recon/" /><meta property="article:section" content="Cheatsheets" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Certspotter curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq | dig &#43;short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG - Sublist3r One-liner This runs Sublist3r on a list of domains and outputs the results in separate files."/>
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="Certspotter curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &#39;.[].dns_names[]&#39; | sed &#39;s/\&#34;//g&#39; | sed &#39;s/\*\.//g&#39; | uniq | dig &#43;short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG - Sublist3r One-liner This runs Sublist3r on a list of domains and outputs the results in separate files.">
+
+<meta itemprop="wordCount" content="154">
+<meta itemprop="keywords" content="" />
+
+
+
+
+<link rel="stylesheet" href="https://example.com/main.min.css">
+
+
+
+
+
+<script src="https://example.com/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+        <div class="col-3 col-sm-4 social-buttons d-none d-sm-block">
+          <ul>
+    
+    <li>
+        <a href="https://www.facebook.com/armoghanul.mohmin" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://twitter.com/Armoghan12" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="https://www.instagram.com/___armoghan/" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://github.com/Armoghan-ul-Mohmin" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="http://www.linkedin.com/in/armoghan-ul-mohmin-4289a9248" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </li>
+    
+
+</ul>
+        </div>
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="col-6 col-sm-4">
+          <h2 class="title"><a href="https://example.com/">Armoghan</a></h2>
+        </div>
+
+        
+        <div class="col-3 col-sm-4">
+          <div class="col col-md-8 offset-md-4 d-none d-sm-block">
+            <form id="cse-search-box-form-id" class="input-group search-bar" onsubmit="return executeQuery('lg');"
+              role="search">
+              <input id="cse-search-input-box-id" type="text" class="form-control" placeholder="Search">
+              <button class="btn" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item d-block d-sm-none">
+            <ul class="social-buttons">
+              <ul>
+    
+    <li>
+        <a href="https://www.facebook.com/armoghanul.mohmin" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://twitter.com/Armoghan12" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="https://www.instagram.com/___armoghan/" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://github.com/Armoghan-ul-Mohmin" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="http://www.linkedin.com/in/armoghan-ul-mohmin-4289a9248" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </li>
+    
+
+</ul>
+            </ul>
+          </li>
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://example.com/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Blog
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="https://example.com/posts/">Posts</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/sections/">Sections</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/tags/">Tags</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/cheatsheets/">Cheat Sheets</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://armoghan-ul-mohmin.github.io/Portfolio/">
+              Author
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://armoghan-ul-mohmin.github.io/Portfolio/Contact.html">
+              Contact
+            </a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <form id="cse-search-box-form-id2" class="d-flex search-bar d-block d-sm-none"
+          onsubmit="return executeQuery('xs');" role="search">
+          <input id="cse-search-input-box-id2" type="text" class="form-control" placeholder="Search">
+          <button class="btn" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+                <h1 class="title"></h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-4 date-time">
+                            <span class="date">
+    Jan 1, 0001
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    1 min read</span>
+                        </div>
+
+                        <div class="col-md-8 tags ">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <h1 id="certspotter">Certspotter</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>curl https://certspotter.com/api/v0/certs<span style="color:#ae81ff">\?</span>domain<span style="color:#ae81ff">\=</span>example.com | jq <span style="color:#e6db74">&#39;.[].dns_names[]&#39;</span> | sed <span style="color:#e6db74">&#39;s/\&#34;//g&#39;</span> | sed <span style="color:#e6db74">&#39;s/\*\.//g&#39;</span> | uniq
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zsh" data-lang="zsh"><span style="display:flex;"><span>curl https://certspotter.com/api/v0/certs<span style="color:#ae81ff">\?</span>domain<span style="color:#ae81ff">\=</span>example.com | jq <span style="color:#e6db74">&#39;.[].dns_names[]&#39;</span> | sed <span style="color:#e6db74">&#39;s/\&#34;//g&#39;</span> | sed <span style="color:#e6db74">&#39;s/\*\.//g&#39;</span> | uniq | dig +short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG -
+</span></span></code></pre></div><h1 id="sublist3r-one-liner">Sublist3r One-liner</h1>
+<p>This runs <a href="https://github.com/aboul3la/Sublist3r">Sublist3r</a> on a list of domains and outputs the results in separate files.</p>
+<pre tabindex="0"><code>. &lt;(cat domains | xargs -n1 -i{} python sublist3r.py -d {} -o {}.txt)
+</code></pre><h1 id="apktoolhttpsibotpeachesgithubioapktool-to-linkfinderhttpsgithubcomgerbenjavadolinkfinder"><a href="https://ibotpeaches.github.io/Apktool/">Apktool</a> to <a href="https://github.com/GerbenJavado/LinkFinder">LinkFinder</a></h1>
+<pre tabindex="0"><code>apktool d app.apk; cd app;mkdir collection; find . -name \*.smali -exec sh -c &#34;cp {} collection/\$(head /dev/urandom | md5 | cut -d&#39; &#39; -f1).smali&#34; \;; linkfinder -i &#39;collection/*.smali&#39; -o cli
+</code></pre><h1 id="aquatonehttpsgithubcommichenriksenaquatone-one-liner"><a href="https://github.com/michenriksen/aquatone/">Aquatone</a> One-liner</h1>
+<pre tabindex="0"><code>$ echo &#34;aquatone-discover -d \$1 &amp;&amp; aquatone-scan -d \$1 --ports huge &amp;&amp; aquatone-takeover -d \$1 &amp;&amp; aquatone-gather -d \$1&#34; &gt;&gt; aqua.sh &amp;&amp; chmod +x aqua.sh
+$./aqua.sh domain.com
+</code></pre><h1 id="relative-url-extractorhttpsgithubcomjobertabmarelative-url-extractor"><a href="https://github.com/jobertabma/relative-url-extractor">relative-url-extractor</a></h1>
+<pre tabindex="0"><code>$ ruby extract.rb demo-file.js
+$ ruby extract.rb https://hackerone.com/some-file.js
+$ ruby extract.rb &#39;|cat demo-file.js&#39; -c
+</code></pre>
+
+                <div id="social-media-share">
+	<p><i>Sharing is caring!</i></p>
+	
+	<div class="share-buttons">
+	    <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Facebook. Opens in a new window.">
+	        <img src=https://example.com/icons/45px/facebook.png>
+	    </a>
+
+	    <a  href="https://twitter.com/intent/tweet?text=&url=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Twitter. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/twitter.png>
+	    </a>
+
+		<a  href="http://www.reddit.com/submit?url=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Reddit. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/reddit.png>
+	    </a>
+
+	    <a  href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Pinterest. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/pinterest.png>
+	    </a>
+
+	    <a  href="http://www.tumblr.com/share/link?url=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Tumblr. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/tumblr.png>
+	    </a>
+
+		<a  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f
+			&title=&summary=Certspotter%20curl%20https%3a%2f%2fcertspotter.com%2fapi%2fv0%2fcerts%5c%3fdomain%5c%3dexample.com%20%7c%20jq%20%26%2339%3b.%5b%5d.dns_names%5b%5d%26%2339%3b%20%7c%20sed%20%26%2339%3bs%2f%5c%26%2334%3b%2f%2fg%26%2339%3b%20%7c%20sed%20%26%2339%3bs%2f%5c%2a%5c.%2f%2fg%26%2339%3b%20%7c%20uniq%20curl%20https%3a%2f%2fcertspotter.com%2fapi%2fv0%2fcerts%5c%3fdomain%5c%3dexample.com%20%7c%20jq%20%26%2339%3b.%5b%5d.dns_names%5b%5d%26%2339%3b%20%7c%20sed%20%26%2339%3bs%2f%5c%26%2334%3b%2f%2fg%26%2339%3b%20%7c%20sed%20%26%2339%3bs%2f%5c%2a%5c.%2f%2fg%26%2339%3b%20%7c%20uniq%20%7c%20dig%20%2bshort%20-f%20-%20%7c%20uniq%20%7c%20nmap%20-T5%20-Pn%20-sS%20-i%20-%20-p%2080%2c443%2c21%2c22%2c8080%2c8081%2c8443%20--open%20-n%20-oG%20-%20Sublist3r%20One-liner%20This%20runs%20Sublist3r%20on%20a%20list%20of%20domains%20and%20outputs%20the%20results%20in%20separate%20files.&source=https://example.com/"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on LinkedIn. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/linkedin.png>
+	    </a>
+
+	    <a  href="mailto:?subject=&amp;body=Check out this site https%3a%2f%2fexample.com%2fcheatsheets%2frecon%2frecon%2f"
+	        title="Share via Email. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/mail.png>
+	    </a>
+	</div>
+</div>
+
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center py-5">
+    <p>
+        
+        © 2021 <a href="https://rafed.github.io/" target="_blank">DevRa</a>.
+        <a href="https://github.com/rafed/BlogRa/" target="_blank">BlogRa</a> theme for
+        <a href="https://github.com/gohugoio/hugo/" target="_blank">
+            Hugo
+        </a>. 
+        
+    </p>
+</footer>
+
+
+<script async src="https://cse.google.com/cse.js?cx=google-cse-key"></script>
+<gcse:searchresults-only></gcse:searchresults-only>
+</body>
+
+</html>

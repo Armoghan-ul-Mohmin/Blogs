@@ -3,7 +3,128 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/ai/</loc>
+	    <loc>https://example.com/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/books/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/bugbountyplatforms/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/bugbountytips/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/content-injection/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/tags/git/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/posts/git/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/tags/github/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/posts/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/tags/</loc>
+	    <lastmod>2023-03-11</lastmod>
+        
+
+        
+	  </url>
+	  
+  
+      
+      
+	  <url>
+	    <loc>https://example.com/cheatsheets/cors/cors/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -14,7 +135,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/</loc>
+	    <loc>https://example.com/cheatsheets/crlf/crlf/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -25,7 +146,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/artificial-intelligence/</loc>
+	    <loc>https://example.com/cheatsheets/crypto/crypto/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -36,7 +157,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/aws/</loc>
+	    <loc>https://example.com/cheatsheets/csv-injection/csv-injection/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -47,7 +168,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/azure/</loc>
+	    <loc>https://example.com/cheatsheets/lfi/lfi/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -58,7 +179,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/beginners-guide/</loc>
+	    <loc>https://example.com/cheatsheets/open-redirect/open-redirect/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -69,7 +190,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/bitcoin/</loc>
+	    <loc>https://example.com/cheatsheets/practice-platforms/practice-platforms/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -80,7 +201,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/blockchain/</loc>
+	    <loc>https://example.com/cheatsheets/rce/rce/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -91,7 +212,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/cloud-computing/</loc>
+	    <loc>https://example.com/cheatsheets/recon/recon/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -102,7 +223,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/cloudcomputing/</loc>
+	    <loc>https://example.com/cheatsheets/special-tools/special-tools/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -113,7 +234,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/coding/</loc>
+	    <loc>https://example.com/cheatsheets/sqli/sqli/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -124,7 +245,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/connectivity/</loc>
+	    <loc>https://example.com/cheatsheets/ssrf/ssrf/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -135,7 +256,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/cryptocurrency/</loc>
+	    <loc>https://example.com/cheatsheets/template-injection/template-injection/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -146,7 +267,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/cryptocurrency-and-blockchain/</loc>
+	    <loc>https://example.com/cheatsheets/xslt/xslt/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -157,7 +278,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity/</loc>
+	    <loc>https://example.com/cheatsheets/xss/xss/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -168,7 +289,7 @@
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/cybersecurity/</loc>
+	    <loc>https://example.com/cheatsheets/xxe/xxe/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
@@ -177,328 +298,11 @@
 	  
   
       
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/cybersecurity-for-small-businesses/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
   
       
       
 	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/data-protection/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/data-science/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/datascience/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/deep-learning/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/getting-started-in-it/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/git/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/git/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/google-cloud/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/information-security/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/installgit/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/iot/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/iot/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/it/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/machine-learning/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/network-administration/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/network-administration/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/networking/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/programming/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/quantum-computing/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/quantum-computing/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/quantum-mechanics/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/small-business/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/smart-devices/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/software-development/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/posts/software-development/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/statistics/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/</loc>
-	    <lastmod>0001-01-01</lastmod>
-        
-
-        
-	  </url>
-	  
-  
-      
-      
-	  <url>
-	    <loc>https://armoghan-ul-mohmin.github.io/Blogs/tags/windows/</loc>
+	    <loc>https://example.com/categories/</loc>
 	    <lastmod>0001-01-01</lastmod>
         
 
