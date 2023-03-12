@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Admin on Armoghan</title>
-    <link>https://example.com/admin/</link>
+    <link>https://armoghan-ul-mohmin.github.io/Blogs/admin/</link>
     <description>Recent content in Admin on Armoghan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.com/admin/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://armoghan-ul-mohmin.github.io/Blogs/admin/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
